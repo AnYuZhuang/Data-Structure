@@ -36,7 +36,7 @@ int main(void)
         cin>>num;
         arr[i] = num;
     }
-    QuickSort(arr,0,14);//length() for string.
+    QuickSort(arr,0,total-1);//length() for string.
 
     // Output arr for checking
     for(int i = 0;i < total;i++){
